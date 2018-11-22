@@ -1,0 +1,78 @@
+@charset "UTF-8"; 
+
+html
+{
+    font-size: 62.5%; /* ベースとなるフォントサイズの定義 */
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; /* フォントの種類 */
+    font-size: 1.4rem; /* フォントサイズ */
+    line-height: 1.6; /* 行間 */
+
+    letter-spacing: .1em;　/* 文字間隔 */
+
+    color: #000000;/* 文字色 */
+    background-color: #FFFFFF; /* 背景色 */
+}
+
+header {
+    margin: 0;
+    background-image: url("../images/robot-top.jpg"); 
+    background-size: cover;
+    height: 500px;
+}
+
+.container{
+    padding: 20px 0;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: stretch;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 250px;
+    }
+    
+    .container {
+        padding: 20px 0;
+        align-items: stretch;
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #333;
+    margin: 5px 5px;
+}
+
+a
+{
+    font-weight: bold;
+    display: block;
+    width: 180px;
+    margin: auto;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #14c0c9;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #d1caca;
+    text-align: center;
+}
