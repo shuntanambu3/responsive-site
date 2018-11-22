@@ -58,6 +58,7 @@ h2 {
 .box {
     border: 1px solid #333;
     margin: 5px 5px;
+    padding: 10px 10px;
 }
 
 a
@@ -70,6 +71,7 @@ a
     text-align: center;
     background-color: #14c0c9;
     color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
 }
 
 footer {
